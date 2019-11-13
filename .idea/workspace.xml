@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4efd276-e40f-47fd-8600-a00cd3820feb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/04.console.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/05.操作HTML页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/06.读与写.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/07.定义变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.认识javascript/3.弹窗调试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.数据类型/01.定义变量.html" afterDir="false" />
-    </list>
+    <list default="true" id="d4efd276-e40f-47fd-8600-a00cd3820feb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -54,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02.数据类型/01.定义变量.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="304">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -102,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="586" />
-    <option name="y" value="131" />
+    <option name="x" value="488" />
+    <option name="y" value="128" />
     <option name="width" value="790" />
     <option name="height" value="593" />
   </component>
@@ -133,6 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -170,15 +160,15 @@
       <workItem from="1573458572926" duration="2811000" />
       <workItem from="1573525420756" duration="4403000" />
       <workItem from="1573615126150" duration="356000" />
-      <workItem from="1573623430091" duration="426000" />
+      <workItem from="1573623430091" duration="756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9235000" />
+    <option name="totallyTimeSpent" value="9565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="586" y="131" width="790" height="593" extended-state="0" />
+    <frame x="488" y="128" width="790" height="593" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20286086" />
@@ -285,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02.数据类型/01.定义变量.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="304">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
