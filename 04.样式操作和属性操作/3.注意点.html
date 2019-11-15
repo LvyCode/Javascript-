@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<!--<img src="1.jpg" alt="">-->
+<a href="2.操作styple样式.html"
+   style="color: red"></a>
+
+<input type="text" id="aaa">
+
+<input type="checkbox" id="bbb" checked>
+
+<script>
+    // var oImg = document.querySelector("img");
+    //
+    // //获取的路径，是绝对路径
+    // console.log(oImg.src);
+
+    var oA = document.querySelector("a");
+
+    console.log(oA.href);
+
+
+    console.log(oA.style.color);
+
+
+    var aaa = document.getElementById("aaa");
+    aaa.type = "radio";
+
+    var bbb = document.getElementById("bbb");
+    console.log(bbb.checked);
+
+
+
+</script>
+</body>
+</html>

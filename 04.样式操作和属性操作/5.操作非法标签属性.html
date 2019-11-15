@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap" title="" class="" afei=""></div>
+
+<script>
+    /*
+      自定义标签属性
+    * */
+
+    var wrap = document.getElementById("wrap");
+    console.dir(wrap);
+
+
+    console.log(oWrap.attributes.afei.nodeValue);
+    oWrap.attributes.afei.nodeValue = "789";
+
+
+    console.log(wrap.getAttribute("afei"));
+    wrap.getAttribute("afei","90") ;
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap"></div>
+<script>
+
+    var oWrap = document.getElementById("wrap");
+
+    console.dir(oWrap);
+
+
+    oWrap.d = "d";
+    console.log(oWrap);
+
+
+    //标签属性
+    oWrap.title = "这是新加的title";
+
+    /*
+    *   大部分标签属性可以直接操作，但是有极个别需要特殊处理
+    *   class =====》className
+    *
+    * */
+
+    oWrap.className = "yanxin";
+
+
+    console.log(oWrap.id);
+
+
+</script>
+
+</body>
+</html>

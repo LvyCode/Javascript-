@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #a{
+            margin: 20px auto;
+            width: 300px;
+            height: 50px;
+            background-color: darkgray;
+        }
+        #b{
+            margin: 0 auto;
+            width: 300px;
+            height: 50px;
+            background-color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+<div id="a"></div>
+<div id="b"></div>
+
+<script>
+    var a = document.getElementById("a");
+    var b = document.getElementById("b");
+
+
+    a.onmouseenter = function () {
+        b.innerText = "aaaaaaaaaaaa";
+    }
+    a.onmouseleave = function () {
+        b.innerText = null;
+    }
+    b.onmouseenter = function () {
+        a.innerText = "bbbbbbbbb";
+    }
+    b.onmouseleave = function () {
+        a.innerText = "";
+    }
+
+</script>
+</body>
+</html>

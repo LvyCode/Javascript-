@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #main{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        #nav{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+
+</div>
+<div id="nav">
+
+</div>
+<script>
+    var oM = document.getElementById("main");
+
+
+    var oN = document.getElementById("nav");
+
+    // oM.onclick = function () {
+    //     this.innerText = "阿飞老师";
+    // }
+    // oN.onclick = function () {
+    //     this.innerText = "阿飞老师";
+    // }
+
+    function a() {
+       this.innerText = "阿飞老师";
+    }
+    oM.onclick = a;
+    oN.onclick = a;
+
+
+
+</script>
+</body>
+</html>
