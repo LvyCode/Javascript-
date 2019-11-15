@@ -13,22 +13,24 @@
     </style>
 </head>
 <body>
+
 <script>
+    var obj = {};
+    obj.age = 10;
+    console.log(obj.age);
 
 
-    /*
-    * 变量命名规则
-    *      字母  数字  _  $
-    *      不能以数字开头
-    *      严格区分大小写
-    *      不能使用 关键词/保留词
-    *      见名知意
-    * */
+    //可以直接使用.操作去添加一条原来没有的属性
+    obj.name = "阿飞";
+    console.log(obj);
 
-    var goudan = 10;
-    var dachui = 20;
-    console.log(goudan*dachui);
 
+    var a = function () {
+
+    };
+    a.age = 19;
+    console.dir(a.age);
 </script>
+
 </body>
 </html>

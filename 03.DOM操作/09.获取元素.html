@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+<script>
+
+    // var oP = document.getElementById("main");
+    //
+    // var aP = document.getElementsByTagName("p");
+    //该选择器对应的所有标签（数组）
+    var aP = document.querySelectorAll("#main p");
+    //该选择器对应的第一个标签（单个对象）
+    var x = document.querySelector("#main p");
+
+    x.innerHTML = "<b>加粗文字</b>";
+
+    
+</script>
+</body>
+</html>

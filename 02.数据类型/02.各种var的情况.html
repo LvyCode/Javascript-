@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<script>
+
+    /*
+    *   同一变量名，相同 作用域，var多次是没有意思的
+    *   es6里面，如果这样使用，会报错
+    * */
+
+    // var a = 10;
+    // a = 20;
+    // console.log(a);
+
+    //绝对禁止"无中生有"
+    // a = 10;
+    // b = 20;
+    // console.log(a*b);
+
+    //定义 = 邮编可以是确却的值，或者一个表达式
+    // var a = 20;
+    // var b = 5+3;
+    // var  c = document.getElementById("");
+    // var d = "阿飞";
+
+
+    // 可以只定义，不赋值
+    var a;
+    a = 4+5;
+
+
+</script>
+</body>
+</html>

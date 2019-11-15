@@ -13,22 +13,17 @@
     </style>
 </head>
 <body>
+<div>
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+
 <script>
+    var aP = document.getElementsByTagName("p");
 
-
-    /*
-    * 变量命名规则
-    *      字母  数字  _  $
-    *      不能以数字开头
-    *      严格区分大小写
-    *      不能使用 关键词/保留词
-    *      见名知意
-    * */
-
-    var goudan = 10;
-    var dachui = 20;
-    console.log(goudan*dachui);
-
+    console.log(aP);
+    aP[1].innerText = "1";
 </script>
 </body>
 </html>

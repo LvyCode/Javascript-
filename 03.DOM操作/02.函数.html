@@ -15,19 +15,16 @@
 <body>
 <script>
 
+    // 作用域
 
-    /*
-    * 变量命名规则
-    *      字母  数字  _  $
-    *      不能以数字开头
-    *      严格区分大小写
-    *      不能使用 关键词/保留词
-    *      见名知意
-    * */
+    var a = 10;
+    var b = 20;
 
-    var goudan = 10;
-    var dachui = 20;
-    console.log(goudan*dachui);
+    function b() {
+        var a = 30;
+
+    }
+
 
 </script>
 </body>

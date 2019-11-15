@@ -13,21 +13,16 @@
     </style>
 </head>
 <body>
+<div id="nav">
+    <p class="a"></p>
+    <p class="b"></p>
+    <p class="c"></p>
+</div>
 <script>
+    var oNav = document.getElementById("nav");
+    var a = document.getElementsByClassName("a");
 
-
-    /*
-    * 变量命名规则
-    *      字母  数字  _  $
-    *      不能以数字开头
-    *      严格区分大小写
-    *      不能使用 关键词/保留词
-    *      见名知意
-    * */
-
-    var goudan = 10;
-    var dachui = 20;
-    console.log(goudan*dachui);
+    oNav.innerText = "1233444";
 
 </script>
 </body>
