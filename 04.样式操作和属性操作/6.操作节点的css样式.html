@@ -5,16 +5,39 @@
     <title>Title</title>
     <meta name="author" content="Lvy">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+    <style id="a">
+
     </style>
 </head>
 <body>
-<div id="wrap"></div>
+<div id="wrap">sssss</div>
 <script>
+    /*
+
+    操作html标签的样式，其实就是在操作css
+
+     书写css的方式
+        1.外部样式表
+          ✘ js只对当前这一个html文档有控制能力，别的文件是不能操作的
+        2.内部样式表
+          √ js可以操作style标签,但是不常用，因为不好掌握优先级，不美观
+        3.内联样式
+          √ 这个才是我们通常会使用的操作样式的方法
+
+
+    * */
+
+    // var a = document.getElementById("a");
+
+   // a.innerHTML = "#wrap{\n" +
+   //     "            color: red;\n" +
+   //     "        }";
+   //
+    var wrap = document.getElementById("wrap");
+    wrap.style.color = "red";
+    wrap.style.fontWeight = "700";
+
+
 
 </script>
 </body>

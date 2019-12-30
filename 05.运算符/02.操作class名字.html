@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap" class="abc efg"></div>
+<script>
+
+    /*
+    操作class名字的方法
+    * */
+
+    var oWrap = document.getElementById("wrap");
+    console.dir(oWrap);
+
+    /*添加class名字*/
+    // oWrap.classList.add("afei");
+
+    /*添加多个class名字*/
+    oWrap.classList.add("afei","yanxin","xiaoli");
+    /*移除名字*/
+    // oWrap.classList.remove("abc");
+
+    /*移除多个名字*/
+    // oWrap.classList.remove("abc","yanxin");
+
+    /*切换名字*/
+    oWrap.classList.toggle("afei");
+
+</script>
+
+
+</body>
+</html>
+

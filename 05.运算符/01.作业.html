@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap{
+            position: relative;
+            width: 180px;
+            height: 180px;
+            border: 1px solid red;
+            user-select: none;
+        }
+        #wrap p.big{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: pink;
+
+            text-align: center;
+            line-height: 90px;
+            font-weight: 700;
+
+
+            transition: transform .3s;
+        }
+        #wrap p.big.active {
+
+        }
+        #wrap p.small{
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 80px;
+            height: 80px;
+            background-color: rgb(126,254,212);
+            border-radius: 50%;
+
+
+            text-align: center;
+            line-height: 90px;
+            font-weight: 700;
+
+            transform:translate(0,0) scale(0);
+            transition: transform .3s;
+        }
+
+        #wrap p.small.active:nth-child(2){
+            transform: translate(-50px,-50px) scale(1);
+        }
+        #wrap p.small.active:nth-child(3){
+            transform: translate(-50px,50px) scale(1);
+        }
+        #wrap p.small.active:nth-child(4){
+            transform: translate(50px,-50px) scale(1);
+        }
+        #wrap p.small.active:nth-child(5){
+            transform: translate(50px,50px) scale(1);
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <p class="big">菜单</p>
+    <p class="small">首页</p>
+    <p class="small">文章</p>
+    <p class="small">登录</p>
+    <p class="small">注册</p>
+</div>
+<script>
+    var oBig = document.querySelector("#wrap p.big");
+    var oSmall = document.querySelectorAll("#wrap p.small");
+    oBig.onclick = function () {
+        this.className += "active";
+        aSmall[0].className += "active";
+        aSmall[1].className += "active";
+        aSmall[2].className += "active";
+        aSmall[3].className += "active";
+    };
+</script>
+</body>
+</html>
