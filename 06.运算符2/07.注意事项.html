@@ -14,14 +14,27 @@
 </head>
 <body>
 <script>
-    /*
-    模
-    * */
 
-    var a = 10;
-    var b = 3;
-    // console.log(a/b);
-    console.log(a % b);
+
+    /*
+     基础数据类型里面NaN,连自己都不相等！
+    * */
+    // var a = null;
+    // var b = null;
+
+    // var a = NaN;
+    // var b = NaN;
+    //
+    // console.log(a === b);
+
+
+    /*复杂数据类型 比较的是地址*/
+
+    var a = {name:"阿飞"};
+    var b = {name:"阿飞"};
+
+    console.log(a === b);//false
+
 
 </script>
 </body>

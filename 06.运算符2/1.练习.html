@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 传0;
+        }
+        #btn{
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            border: 1px solid pink;
+            cursor: pointer;
+            user-select: none;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="btn">按钮</div>
+<script>
+    var oBtn = document.getElementById('btn');
+
+    var index = 0;
+
+    var arr = ['red','green','blue'];
+
+    oBtn.onclick = function () {
+
+
+        index++;
+        var i = index % 3;
+
+        this.style.backgroundColor = arr[i];
+
+    };
+</script>
+</body>
+</html>
