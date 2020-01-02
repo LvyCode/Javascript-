@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="author" content="Lvy">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        table{
+            width: 600px;
+            margin: 100px auto;
+            border-collapse: collapse;
+            border-color: red;
+        }
+        table th{
+            height: 30px;
+        }
+        table td{
+            text-align: center;
+            height: 100px;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        span{
+            background-color: gray;
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <table class="goods">
+
+        <th>
+            <td>图片</td>
+            <td>单价</td>
+            <td>数量</td>
+            <td>价格</td>
+        </th>
+
+        <tr>
+            <td><img style="text-align: center" src="img/1.png"></td>
+            <td>20</td>
+            <td>
+                <span id="sub">-</span>
+                <span id="number">0</span>
+                <span id="add">+</span>
+            </td>
+            <td>0</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
